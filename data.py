@@ -3,7 +3,7 @@ import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 
 
-_DATASETS_MAIN_PATH = '//data/'
+_DATASETS_MAIN_PATH = '/data/'
 
 _dataset_path = {
     'cifar10': os.path.join(_DATASETS_MAIN_PATH, 'CIFAR10'),
